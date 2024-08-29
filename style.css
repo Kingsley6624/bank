@@ -287,7 +287,7 @@ li {
     align-items: center;
     height: 28px;
 }
-.visa p {
+.visa span {
     align-self: center;
 }
 .firstvisacontainer {
@@ -316,13 +316,14 @@ li {
     width: 250px;
 }
 .paddingtop {
-    padding: 13px 0;
+    padding: 13px 5px;
     
 }
 
 .formcontainer  input {
     border: none;
     padding: 10px;
+    width: 230px;
 }
 .containerflex {
     display: flex;
@@ -343,5 +344,7 @@ li {
     background-color: darkorange;
     color: #ffff;
     border: none;
-    
+}
+.formcontainer input:focus-visible {
+    outline: none;
 }
